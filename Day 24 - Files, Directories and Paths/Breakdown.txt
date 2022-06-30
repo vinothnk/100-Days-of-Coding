@@ -1,0 +1,18 @@
+go to letter
+open the file. 
+read the file. 
+check whats the data type of the file
+
+identify which line the [name] need to be changed.
+
+go to namelist.
+open the file
+read the file.
+check the data type of content
+
+need to remove the \n from the letter and the names.
+
+store them back in a list.
+
+then using for loop, add in each name in the letter.
+write back to a new file for each name.
