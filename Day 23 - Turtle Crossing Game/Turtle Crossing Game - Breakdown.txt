@@ -1,0 +1,36 @@
+4 classes.
+
+main
+
+player(turtle)
+
+car manager
+
+scoreboard
+
+
+what each class does
+
+main
+- control the main screen
+- refreshes screen when player needs to go back to start point - done
+- need to listen for up and down button when pressed - done
+
+
+player(turtle)
+- turtle shape - done
+- player needs to press up and down to move turtle - done
+- once reached the top of screen, player goes back to start point (use self.ycor method to check if hit border for restart) - done
+- once player hits the top border, score increases before restart
+- if hit the car(use distance method again), print game over. (either use turtle against car or car against turtle - see which is easier to implement)
+
+
+car manager
+- have different colored cars allocated in game. - done
+- each colored car moves at a random speed(import random module) along the y axis - done
+- speed of cars increase when player goes to next level
+
+
+scoreboard
+- write score when game starts. - done
+- update score once turtle reaches the top
