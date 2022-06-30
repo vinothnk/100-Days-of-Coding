@@ -1,0 +1,69 @@
+def walls():
+    if wall_in_front() and wall_on_right():
+        turn_left()
+
+        
+def front_clear():
+    if front_is_clear():
+        move()
+        if wall_in_front() and wall_on_right():
+            turn_left()
+        else:
+            move()   
+
+
+
+take()
+check()
+front_clear()
+while not at_goal():
+    check()
+    front_clear()
+    if 
+
+
+take()  
+step_up()
+step_up()
+step_up()
+put()
+turn_left()
+turn_left()
+step_down()
+step_down()
+step_down()
+if at_goal():
+    done()
+
+
+
+take()    
+stepping_up_and_moving()
+for i in range(6):
+    if front_is_clear():
+        move()
+        stepping_up_and_moving()
+put()
+turn_left()
+turn_left()
+for i in range(6):
+    if front_is_clear():
+        move()
+        stepping_down_and_moving()
+
+
+take()
+up_count = 6
+down_count = 9
+while carries_object():
+    if up_count > 0:
+        check()
+        up_count -= 1
+    if up_count == 0:
+        put()
+while not carries_object():
+    if down_count > 0:
+        check()
+        down_count -= 1
+    if down_count == 0:
+        done()
