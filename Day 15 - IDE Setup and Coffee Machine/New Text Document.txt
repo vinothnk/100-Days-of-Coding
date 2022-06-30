@@ -1,0 +1,2 @@
+        resources['water'] = resources['water'] - 50
+        resources['coffee'] = resources['coffee'] - 18
