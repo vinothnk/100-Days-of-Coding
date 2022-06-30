@@ -1,0 +1,45 @@
+main.py
+
+screen object
+setup window size
+bgcolor
+tracer(0)
+
+screen.listen for up and down buttons
+write down the middle line to indicate each half - dotted lines
+need to set border along x-axis for ball to bounce off.
+up and down along x-axis
+
+
+
+class paddles
+- 1 user controlled
+- 1 random controlled
+- need to draw using turtle object - probably 3 segments
+each segment needs to move up and down when pushed button
+
+class ball
+turtle.object
+shape square
+color white
+
+method - when ball hit any segment, it shld bounce back
+
+class scoreboard
+write 2 scores - 1 for user, 1 for ai
+if ball goes beyond paddle at y-axis, score to increase.
+
+----------------------------------------------------------
+1. create screen - done
+2. create and move a paddle
+3. create another paddle
+4. create a ball and move constantly
+5. detect collision with wall and bounce
+6. detect collision with paddle
+7. detect when paddle miss
+8. keep score
+
+
+
+
+
